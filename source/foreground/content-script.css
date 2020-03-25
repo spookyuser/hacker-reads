@@ -1,0 +1,34 @@
+#hn-paginator {
+  float: right;
+  margin-top: 10px;
+}
+
+/* Together (1) and (2) apply rules to <p> tags found in HN comments
+such that they don't create new lines that conflict with the "more..." link
+at then end of long comments. Without these two rules the link is often pushed 
+to a new line. 
+
+I am truly not sure why this combination works, but the several others I've
+tried created weird formatting errors but so far, I haven't seen any with this version. 
+*/
+
+.hn-comment.expandable p:last-child {
+  /* (1) */
+  display: inline;
+}
+
+.hn-comment.expandable p:only-of-type:last-child::before {
+  /* (2) */
+  content: "\a\a";
+  white-space: pre-wrap;
+}
+
+/* Creates an invisible anchor. From https://stackoverflow.com/a/29273257/1649917 */
+#hn-comments-top {
+  position: absolute;
+  top: -100px;
+}
+
+#hn-comments-container > p:first-of-type {
+  position: relative;
+}
