@@ -2,7 +2,7 @@
   "name": "Hacker Reads for Goodreads",
   "version": "0.0.0",
   "description": "Add Hacker News comments to books on Goodreads.",
-  "homepage_url": "https://example.com",
+  "homepage_url": "https://github.com/spookyuser/hacker-reads",
   "manifest_version": 2,
   "minimum_chrome_version": "68",
   "applications": {
