@@ -45,6 +45,29 @@ Here are some things I'd like to add or improve:
 - An option to save individual comments to a private note or comment.
 - The way comment HTML is displayed. Currently using very hacky CSS rules which seem to work but I don't really know why.
 
+## Development
+
+See the npm scripts in [package.json](package.json) for more information. To get started make sure [Node.js®](https://nodejs.org/en/) is installed. You can then clone the repo and install the project:
+
+```shell
+git clone https://github.com/spookyuser/hacker-reads
+cd hacker-reads
+npm install
+```
+
+If you want to play around with the project
+
+`npm run watch`
+
+This will make webpack watch for any changes and output the unpacked extension to `/distribution/`.  
+Now you're ready to start editing the project. You can go straight into `/source/` and mess around if you want.
+
+To see your changes I recommend using Firefox because it automatically reloads your changes and can be launched from the project by running:
+
+`npm run start:firefox`
+
+To build for production just run `npm run build`
+
 ## Acknowledgements
 
 My thanks go to all those mentioned in [acknowledgements.md](acknowledgements.md) for any contributions that I used in this project.
