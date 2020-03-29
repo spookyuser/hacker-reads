@@ -1,9 +1,7 @@
 # <img src="media/icon.svg" width="45" align="left"> Hacker Reads
 
-<!-- # TODO: Replace Links -->
-
-[link-cws]: https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf "Version published on Chrome Web Store"
-[link-amo]: https://addons.mozilla.org/en-US/firefox/addon/refined-github-/ "Version published on Mozilla Add-ons"
+[link-cws]: https://chrome.google.com/webstore/detail/ohkekgnmihdgcfflheadklfihdaibdcb/ "Version published on Chrome Web Store"
+[link-amo]: https://addons.mozilla.org/en-GB/firefox/addon/hacker-reads-for-goodreads/ "Version published on Mozilla Add-ons"
 
 > Browser extension that adds Hacker News comments to books on Goodreads.
 
@@ -17,8 +15,8 @@ This extension attempts to fix this problem by placing relevant HN comments unde
 
 ## Install
 
-- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/hlepfoohegkhhmjieoechaddaejaokhf.svg?label=%20">][link-cws] # TODO: Replace Link
-- [**Firefox** add-on][link-amo] [<img valign="middle" src="https://img.shields.io/amo/v/refined-github-.svg?label=%20">][link-amo] # TODO: Replace Link
+- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/ohkekgnmihdgcfflheadklfihdaibdcb.svg?label=%20">][link-cws]
+- [**Firefox** add-on][link-amo] [<img valign="middle" src="https://img.shields.io/amo/v/hacker-reads-for-goodreads.svg?label=%20">][link-amo]
 
 ## Screenshot
 
