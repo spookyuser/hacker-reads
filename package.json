@@ -3,12 +3,13 @@
   "scripts": {
     "lint:js": "xo",
     "lint-fix": "xo --fix",
-    "test": "run-s lint:* build",
+    "test": "run-s lint:js build",
     "build": "webpack --mode=production",
     "start:firefox": "cd distribution && ..\\node_modules\\.bin\\web-ext run --browser-console --start-url https://www.goodreads.com/book/show/10569.On_Writing",
     "watch": "webpack --mode=development --watch",
     "prerelease:version": "VERSION=$(find-versions $(git-latest-semver-tag)); echo $VERSION; dot-json distribution/manifest.json version $VERSION",
     "prerelease:source-url": "if [ ! -z \"${TRAVIS_REPO_SLUG}\" ]; then echo https://github.com/$TRAVIS_REPO_SLUG/tree/\"${TRAVIS_TAG:-$TRAVIS_COMMIT}\" > distribution/SOURCE_URL; fi",
+    "version": "dot-json distribution/manifest.json version $VER",
     "release": "npm-run-all build prerelease:* release:*",
     "release:cws": "webstore upload --source=distribution --auto-publish",
     "release:amo": "web-ext-submit --source-dir distribution"
