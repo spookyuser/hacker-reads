@@ -7,7 +7,7 @@
   "minimum_chrome_version": "68",
   "applications": {
     "gecko": {
-      "id": "your-extension-name@your-domain.com",
+      "id": "{81a2edfa-7f30-49f1-a6ca-f7a4169c95cc}",
       "strict_min_version": "61.0"
     }
   },
