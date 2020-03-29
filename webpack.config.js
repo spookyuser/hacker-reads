@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require("path"); // eslint-disable-line import/no-extraneous-dependencies.
 const SizePlugin = require("size-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
